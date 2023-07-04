@@ -170,7 +170,7 @@ tbody[class*="list-item"]:hover,
 }
 
 /*BACKGROUND COLOR OF SIDE MENU */
-.list-menu-float .icon-menu {
+.list-menu-float .icon-menu:not(.profile) {
     background: rgba(22, 22, 22, 0.7) !important;
 }
 
@@ -213,11 +213,10 @@ tbody[class*="list-item"]:hover,
 .list-table .list-table-header .header-title .link.sort,
 .list-table .list-table-header .header-title.image a {
     color: #b153df;
-    font-family: ;
 }
 
 /* SIDE MENU ICONS AND TEXT WHEN OPENED*/
-.list-menu-float .icon-menu svg.icon:hover {
+.list-menu-float .icon-menu:not(.profile) svg.icon:hover {
     fill: white !important;
 }
 
